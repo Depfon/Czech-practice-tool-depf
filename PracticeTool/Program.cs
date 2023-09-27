@@ -4,9 +4,9 @@ using System.Runtime.InteropServices;
 using MenuBuilder;
 using PracticeTool;
 
-internal class Program
+public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         
@@ -21,7 +21,7 @@ internal class Program
         
         Console.WriteLine(Translation.StartMenuDescription);
         
-        var StartMenu = new Menu(Translation.StartMenuLines, Config., Translation.StartMenuLines.Length);
+        var StartMenu = new Menu(Translation.StartMenuLines, Config.StartMenuRow, Translation.StartMenuLines.Length);
         
         StartMenu.ModifyMenuCentered();
         StartMenu.CenterMenuToConsole();
@@ -30,7 +30,10 @@ internal class Program
         switch (StartMenu.RunMenu())
         {
             case 0:
-                new TrainingMode();
+                new TrainingMode(Translation.TrainingModeLines, Config.TrainingModeRow, Translation.TrainingModeLines.Length);
+                break;
+            default:
+                break;
         }
     }
 }

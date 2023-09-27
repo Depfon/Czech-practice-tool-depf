@@ -21,7 +21,7 @@ internal class Program
         
         Console.WriteLine(Translation.StartMenuDescription);
         
-        var StartMenu = new Menu(Translation.StartMenuLines, 2, Translation.StartMenuLines.Length);
+        var StartMenu = new Menu(Translation.StartMenuLines, Config., Translation.StartMenuLines.Length);
         
         StartMenu.ModifyMenuCentered();
         StartMenu.CenterMenuToConsole();

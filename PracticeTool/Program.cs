@@ -30,7 +30,11 @@ public class Program
         switch (StartMenu.RunMenu())
         {
             case 0:
-                new TrainingMode(Translation.TrainingModeLines, Config.TrainingModeRow, Translation.TrainingModeLines.Length);
+                new TrainingModeMenu(Translation.TrainingModeLines, Config.TrainingModeRow, Translation.TrainingModeLines.Length);
+                break;
+            case 1:
+                Data.QuestionsAmount = Int32.MaxValue;
+                new MainGame();
                 break;
             default:
                 break;

@@ -38,8 +38,8 @@ namespace MenuBuilder
         // Modify the menu to be left justified
         public void ModifyMenuLeftJustified()
         {
-            int maximumWidth = 0;
-            string space = "";
+            var maximumWidth = 0;
+            var space = "";
 
             foreach (var t in _menuList)
             {
@@ -51,10 +51,10 @@ namespace MenuBuilder
 
             maximumWidth += 6;
 
-            for (int i = 0; i < _menuList.Count; i++)
+            for (var i = 0; i < _menuList.Count; i++)
             {
-                int spacesToAdd = maximumWidth - _menuList[i].Length;
-                for (int j = 0; j < spacesToAdd; j++)
+                var spacesToAdd = maximumWidth - _menuList[i].Length;
+                for (var j = 0; j < spacesToAdd; j++)
                 {
                     space += " ";
                 }
@@ -68,8 +68,8 @@ namespace MenuBuilder
         // Modify the menu to be centered in its column
         public void ModifyMenuCentered()
         {
-            int maximumWidth = 0;
-            string space = "";
+            var maximumWidth = 0;
+            var space = "";
 
             foreach (var t in _menuList)
             {
@@ -82,7 +82,7 @@ namespace MenuBuilder
             maximumWidth += 6;     // make widest measurement wider by 10
                                     // modify this number to make menu wider / narrower
 
-            for (int i = 0; i < _menuList.Count; i++)
+            for (var i = 0; i < _menuList.Count; i++)
             {
                 if (_menuList[i].Length % 2 != 0)
                 {
@@ -91,7 +91,7 @@ namespace MenuBuilder
 
                 var minimumWidth = maximumWidth - _menuList[i].Length;
                 minimumWidth /= 2;
-                for (int j = 0; j < minimumWidth; j++)
+                for (var j = 0; j < minimumWidth; j++)
                 {
                     space += " ";
                 }
@@ -100,7 +100,7 @@ namespace MenuBuilder
                 space = "";                             // menu item
             }
 
-            for (int i = 0; i < _menuList.Count; i++)
+            for (var i = 0; i < _menuList.Count; i++)
             {
                 if (_menuList[i].Length < maximumWidth)      // if any menu item isn't as wide as
                                                         // the max width, add 1 space
@@ -153,7 +153,7 @@ namespace MenuBuilder
         // Engine to run the menu and relevant methods
         public int RunMenu()
         {
-            bool run = true;
+            var run = true;
             DrawMenu();
             while (run)
             {
@@ -199,7 +199,7 @@ namespace MenuBuilder
             
             //string leftPointer = "    ";
             //string rightPointer = "    ";
-            for (int i = 0; i < _menuList.Count; i++)
+            for (var i = 0; i < _menuList.Count; i++)
             {
                 SetCursorPosition(_drawMenuRowPos + i, _drawMenuColumnPos);
                 SetConsoleTextColor(ConsoleColor.White, ConsoleColor.Black);
@@ -220,10 +220,10 @@ namespace MenuBuilder
 
         private int CheckKeyPress()
         {
-            ConsoleKeyInfo keyInfo = ReadKey(true);
+            var keyInfo = ReadKey(true);
             do
             { 
-                ConsoleKey keyPressed = keyInfo.Key;
+                var keyPressed = keyInfo.Key;
                 if (keyPressed == ConsoleKey.UpArrow)
                 {
                     return 10;

@@ -2,6 +2,7 @@ using System.Diagnostics;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.InteropServices;
 using MenuBuilder;
+using PracticeTool;
 
 internal class Program
 {
@@ -18,17 +19,15 @@ internal class Program
             CreateNoWindow = true
         };
         
-        Console.WriteLine("Выбирайте между элементами меню при помощи стрелок \u2195");
+        Console.WriteLine(Translation.StartMenuDescription);
         
-        string[] MenuLines = { "- Режим тренировки", "- Бесконечный режим"};
+        var StartMenu = new Menu(Translation.StartMenuLines, 2, Translation.StartMenuLines.Length);
         
-        Menu BaseMenu = new Menu(MenuLines, 2, MenuLines.Length);
-        
-        BaseMenu.ModifyMenuCentered();
-        BaseMenu.CenterMenuToConsole();
-        BaseMenu.ResetCursorVisible();
+        StartMenu.ModifyMenuCentered();
+        StartMenu.CenterMenuToConsole();
+        StartMenu.ResetCursorVisible();
 
-        switch (BaseMenu.RunMenu())
+        switch (StartMenu.RunMenu())
         {
             case 0:
                 new TrainingMode();

@@ -6,7 +6,7 @@ using PracticeTool;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         

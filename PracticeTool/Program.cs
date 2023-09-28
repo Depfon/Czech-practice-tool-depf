@@ -8,8 +8,7 @@ public class Program
 {
     public static void Main()
     {
-        Console.OutputEncoding = System.Text.Encoding.UTF8;
-        
+        //Console.OutputEncoding = System.Text.Encoding.UTF8;
         var startInfo = new ProcessStartInfo
         {
             FileName = "cmd.exe",

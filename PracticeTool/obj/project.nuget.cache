@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IvVP1QJjrM1AtrLg3fqLObNAcH4/EkGCm6b2VIMWwE0QLNjVilOrJnQXGNFjmjuY3DonJU3e4D8ShjNSSSlRJQ==",
+  "dgSpecHash": "qM73SV/7GJx4sf/7AYjciMU/xKzId4joKp26LePcxyYAI3hJCYVcWiOU3nD3lYPUnOKsDppDNpJORpvUgPhS3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Depfond\\Documents\\GitHub\\Czech-practice-tool-depf\\PracticeTool\\PracticeTool.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Depfond\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\Depfond\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\Depfond\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\Depfond\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,15 @@
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\bin\Release\net6.0\PracticeTool.exe
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\bin\Release\net6.0\PracticeTool.deps.json
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\bin\Release\net6.0\PracticeTool.runtimeconfig.json
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\bin\Release\net6.0\PracticeTool.dll
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\bin\Release\net6.0\PracticeTool.pdb
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\obj\Release\net6.0\PracticeTool.csproj.AssemblyReference.cache
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\obj\Release\net6.0\PracticeTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\obj\Release\net6.0\PracticeTool.AssemblyInfoInputs.cache
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\obj\Release\net6.0\PracticeTool.AssemblyInfo.cs
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\obj\Release\net6.0\PracticeTool.csproj.CoreCompileInputs.cache
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\obj\Release\net6.0\PracticeTool.dll
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\obj\Release\net6.0\refint\PracticeTool.dll
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\obj\Release\net6.0\PracticeTool.pdb
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\obj\Release\net6.0\PracticeTool.genruntimeconfig.cache
+C:\Users\Depfond\Documents\GitHub\Czech-practice-tool-depf\PracticeTool\obj\Release\net6.0\ref\PracticeTool.dll
